@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal do Autor - Obras Literárias</title>
+    <title>Lucas Andrade - Autor & Cronista</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,54 +15,62 @@
         </div>
         <nav class="menu-navegacao">
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Biografia</a></li>
-                <li><a href="#obras">Livros</a></li>
-                <li><a href="#contato">Newsletter</a></li>
+                <li><a href="#destaque">Destaque</a></li>
+                <li><a href="#obras">Obras</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="conteudo-principal" id="inicio">
-        <section class="banner-destaque">
+    <main class="conteudo-principal">
+        <section class="banner-destaque" id="destaque">
             <h2>Novo Lançamento: Vozes do Horizonte</h2>
-            <p>Uma imersão nas crónicas urbanas que moldaram o quotidiano contemporâneo.</p>
+            <p>Uma imersão nas crônicas urbanas que moldaram o cotidiano contemporâneo, explorando memórias, esquinas e sentimentos profundos da nossa época.</p>
         </section>
 
         <section class="secao-obras" id="obras">
-            <h2>Obras Publicadas</h2>
+            <h2>Obras em Destaque</h2>
             <div class="grade-obras">
                 <article class="card-obra">
-                    <img src="https://picsum.photos/id/24/300/200" alt="Capa do livro 1" class="imagem-obra">
-                    <h3 class="titulo-obra">Vozes do Horizonte</h3>
-                    <p class="descricao-obra">Crónicas e reflexões sobre a vida moderna e as suas nuances.</p>
+                    <img src="https://picsum.photos/id/24/400/260" alt="Capa do livro Vozes do Horizonte" class="imagem-obra">
+                    <div class="card-conteudo">
+                        <h3 class="titulo-obra">Vozes do Horizonte</h3>
+                        <p class="descricao-obra">Crônicas e reflexões sobre a vida moderna, a cidade e as suas nuances afetivas.</p>
+                    </div>
                 </article>
 
                 <article class="card-obra">
-                    <img src="https://picsum.photos/id/20/300/200" alt="Capa do livro 2" class="imagem-obra">
-                    <h3 class="titulo-obra">Ecos do Passado</h3>
-                    <p class="descricao-obra">Romance histórico que cruza gerações e segredos de família.</p>
+                    <img src="https://picsum.photos/id/20/400/260" alt="Capa do livro Ecos do Passado" class="imagem-obra">
+                    <div class="card-conteudo">
+                        <h3 class="titulo-obra">Ecos do Passado</h3>
+                        <p class="descricao-obra">Romance histórico que cruza gerações, manuscritos perdidos e segredos de família.</p>
+                    </div>
                 </article>
 
                 <article class="card-obra">
-                    <img src="https://picsum.photos/id/26/300/200" alt="Capa do livro 3" class="imagem-obra">
-                    <h3 class="titulo-obra">Diálogos Noturnos</h3>
-                    <p class="descricao-obra">Ensaios breves sobre literatura, filosofia e silêncio.</p>
+                    <img src="https://picsum.photos/id/26/400/260" alt="Capa do livro Diálogos Noturnos" class="imagem-obra">
+                    <div class="card-conteudo">
+                        <h3 class="titulo-obra">Diálogos Noturnos</h3>
+                        <p class="descricao-obra">Ensaios breves sobre literatura contemporânea, filosofia da arte e silêncio.</p>
+                    </div>
                 </article>
             </div>
         </section>
 
-        <section class="secao-contato" id="contato">
-            <h2>Subscreva a Newsletter</h2>
-            <form class="formulario-newsletter">
-                <input type="text" placeholder="O seu nome" required class="campo-texto">
-                <input type="email" placeholder="O seu e-mail" required class="campo-texto">
-                <button type="submit" class="botao-enviar">Subscrever</button>
-            </form>
+        <section class="secao-sobre" id="sobre">
+            <h2>Sobre o Autor</h2>
+            <p>Lucas Andrade é escritor independente com publicações traduzidas para diversos idiomas, dedicando sua trajetória à narrativa curta e à observação do comportamento humano.</p>
         </section>
     </main>
 
-    <footer class="rodape-principal">
+    <footer class="rodape-principal" id="contato">
+        <div class="rodape-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener">Twitter/X</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:contato@lucasandrade.com">E-mail</a>
+        </div>
         <p>&copy; 2026 Lucas Andrade. Todos os direitos reservados.</p>
     </footer>
 
