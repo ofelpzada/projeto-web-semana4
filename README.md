@@ -1,12 +1,14 @@
-# Projeto Web: Portal do Escritor
+# Projeto Web: Home-Page Responsiva (Semana 5)
 
 - **Nome:** Felipe Lopes dos Santos Lima
 - **Matrícula:** 935890
-- **Proposta Escolhida:** Proposta 1 - Pessoas e Produções
-- **Descrição:** Website de divulgação do autor e cronista fictício Lucas Andrade, reunindo obras publicadas, detalhes sobre os livros e inscrição para newsletter.
+- **Versão:** v1.0 (CSS Puro com Responsividade)
 
-## Esboço do Layout (Wireframe)
-![Wireframe](wireframe.png)
+## Descrição
+Evolução da home-page do escritor Lucas Andrade, implementando layout responsivo com CSS puro (Grid, Flexbox e Media Queries) que se adapta entre desktop (múltiplas colunas) e dispositivos móveis (coluna única).
 
-## Visualização da Home-Page
-![Home-Page](print_homepage.png)
+## Versão Desktop
+![Versão Desktop](print_desktop.png)
+
+## Versão Mobile
+![Versão Mobile](print_mobile.png)
