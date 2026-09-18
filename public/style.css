@@ -90,7 +90,6 @@ body {
     color: #1a252f;
 }
 
-/* Layout Desktop com CSS Grid (3 colunas) */
 .grade-obras {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -167,4 +166,36 @@ body {
 .rodape-principal p {
     color: #7f8c8d;
     font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .header-principal {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .menu-navegacao ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .banner-destaque {
+        padding: 30px 15px;
+    }
+
+    .banner-destaque h2 {
+        font-size: 1.5rem;
+    }
+
+    .grade-obras {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .rodape-links {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
